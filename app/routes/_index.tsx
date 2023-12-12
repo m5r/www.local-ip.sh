@@ -8,8 +8,9 @@ export const links: LinksFunction = () => [
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: "New Remix App" },
-		{ name: "description", content: "Welcome to Remix!" },
+		{ title: "local-ip.sh" },
+		{ name: "description", content: "local-ip.sh is a magic domain name that provides wildcard DNS for any IP address." },
+		{ name: "author", content: "Mokhtar Mial" },
 	];
 };
 
