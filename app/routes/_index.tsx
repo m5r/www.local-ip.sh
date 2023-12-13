@@ -78,7 +78,7 @@ dashes.<strong>192-168-1-10</strong>.local-ip.sh resolves to 192.168.1.10`,
 					<header><strong>How does it work?</strong></header>
 					<main>
 						<article>
-							local-ip.sh runs publicly a <a href="https://github.com/m5r/local-ip.sh">custom DNS server</a>.
+							local-ip.sh runs publicly a <a href="https://git.mokhtar.dev/mokhtar/local-ip.sh">custom DNS server</a>.
 							When your computer looks up a local-ip.sh domain, the local-ip.sh
 							DNS server resolves to the IP address it extracts from the domain.
 						</article>
