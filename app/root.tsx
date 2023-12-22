@@ -5,7 +5,7 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderD
 import useFathom from "./hooks/use-fathom";
 
 export const meta: MetaFunction = () => [
-	{ name: "title", content: "local-ip.sh" },
+	{ title: "local-ip.sh" },
 	{
 		name: "description",
 		content: "local-ip.sh is a magic domain name that provides wildcard DNS for any IP address.",
