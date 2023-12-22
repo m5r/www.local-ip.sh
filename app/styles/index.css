@@ -10,20 +10,23 @@ body {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	width: min(100%, 41.5rem);
-	/*margin: 50px auto;*/
 	margin-top: 50px;
 	margin-bottom: 50px;
 
 	font-family: ui-monospace, monospace;
 	font-size: 18px;
 	font-weight: bold;
-	/*line-height: 1.5;*/
 
 	-webkit-font-smoothing: antialiased;
 }
 
 header {
 	color: #7aa6da;
+	display: flex;
+}
+
+header > pre {
+	margin: 1rem auto;
 }
 
 main a {
@@ -86,9 +89,19 @@ div.cursor {
 }
 
 @keyframes blink {
-	0%   { background: #7aa6da }
-	47%  { background: #728ea7 }
-	50%  { background: #111 }
-	97%  { background: #111 }
-	100% { background: #728ea7 }
+	0% {
+		background: #7aa6da;
+	}
+	47% {
+		background: #728ea7;
+	}
+	50% {
+		background: #111;
+	}
+	97% {
+		background: #111;
+	}
+	100% {
+		background: #728ea7;
+	}
 }
